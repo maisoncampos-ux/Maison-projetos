@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#d0f5d8, #f2fff4);
+  text-align: center;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 10px;
+  color: #1b5e20;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #c8e6c9;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #2e7d32;
+  color: white;
+  font-weight: bold;
+}
+
+.controls button:hover {
+  background: #145a1a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 45px);
+  grid-template-rows: repeat(10, 45px);
+  justify-content: center;
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 45px;
+  height: 45px;
+  background: #a5d6a7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.cell:hover {
+  transform: scale(1.1);
+}
+
+#msg {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2e7d32;
+}
