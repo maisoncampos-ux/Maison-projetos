@@ -1,0 +1,25 @@
+<div class="app">
+  <header>
+    <h1>🌿 Agrofloresta Viva</h1>
+    <p>Construa um ecossistema sustentável</p>
+  </header>
+
+  <section class="stats">
+    <div>🌱 Solo: <span id="solo">70</span></div>
+    <div>💧 Água: <span id="agua">70</span></div>
+    <div>🦋 Biodiversidade: <span id="bio">10</span></div>
+    <div>💰 Pontos: <span id="pontos">0</span></div>
+  </section>
+
+  <section class="controls">
+    <button onclick="modo='plantar'">🌳 Plantar</button>
+    <button onclick="modo='cortar'">🪓 Cortar</button>
+    <button onclick="eventoClima()">🌦️ Clima</button>
+  </section>
+
+  <section class="game">
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <p id="msg"></p>
+</div>
